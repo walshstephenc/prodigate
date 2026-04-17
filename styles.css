@@ -37,21 +37,21 @@ header .container {
     padding: 1rem 20px;
 }
 
-.logo-text .logo-img {
-    font-size: 28px;
-    font-weight: 700;
-    color: #0F766E;
-    letter-spacing: -1px;
+.logo-text {
+    display: inline-block;
+    background-image: url('favicon.ico');
+    background-size: contain;
+    text-indent: 9999px;
+    overflow: hidden;
     width: 32px;
     height: 32px;
-    vertical-align: middle;
 }
 
-.logo-text .logo-img::after {
+.logo-text::after {
     content: '';
     display: inline-block;
-    width: 8px;
-    height: 8px;
+    width: 32px;
+    height: 32px;
     background-color: #D4AF77;
     border-radius: 50%;
     margin-left: 4px;
