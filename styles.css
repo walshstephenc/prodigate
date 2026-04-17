@@ -37,14 +37,17 @@ header .container {
     padding: 1rem 20px;
 }
 
-.logo-text {
+.logo-text .logo-img {
     font-size: 28px;
     font-weight: 700;
     color: #0F766E;
     letter-spacing: -1px;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
 }
 
-.logo-text::after {
+.logo-text .logo-img::after {
     content: '';
     display: inline-block;
     width: 8px;
