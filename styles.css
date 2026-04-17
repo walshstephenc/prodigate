@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    max-width: auto;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -37,29 +37,22 @@ header .container {
     padding: 1rem 20px;
 }
 
-.logo {
-    font-size: 21px;
+.logo-text {
+    font-size: 28px;
     font-weight: 700;
     color: #0F766E;
     letter-spacing: -1px;
-    width: auto;
-    height: auto;
 }
 
-.logo::after {
+.logo-text::after {
     content: '';
     display: inline-block;
-    width: auto;
-    height: auto;
+    width: 8px;
+    height: 8px;
     background-color: #D4AF77;
-    border-radius: 9999px%;
+    border-radius: 50%;
     margin-left: 4px;
     vertical-align: middle;
-}
-
-img {
-    width: auto;
-    height: auto;
 }
 
 nav ul {
