@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://walshstephenc.github.io/prodigate/sitemap.xml
