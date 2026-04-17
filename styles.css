@@ -42,13 +42,15 @@ header .container {
     font-weight: 700;
     color: #0F766E;
     letter-spacing: -1px;
+    width: auto;
+    height: auto;
 }
 
 .logo::after {
     content: '';
     display: inline-block;
-    width: 2px;
-    height: 2px;
+    width: auto;
+    height: auto;
     background-color: #D4AF77;
     border-radius: 9999px%;
     margin-left: 4px;
