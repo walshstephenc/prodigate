@@ -55,6 +55,11 @@ header .container {
     vertical-align: middle;
 }
 
+img {
+    width: 25px;
+    height: 25px;
+}
+
 nav ul {
     display: flex;
     list-style: none;
