@@ -221,11 +221,18 @@ a {
     transition: color 0.3s ease;
 }
 
-/* Future affiliate disclaimer styling */
+/* Affiliate Disclaimer */
 .disclaimer {
     font-size: 0.85rem;
     color: #666;
     text-align: center;
-    padding: 1.5rem;
+    padding: 2rem 20px 1.5rem;
     border-top: 1px solid #eee;
+    background-color: #f8f9fa;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.disclaimer p {
+    margin-bottom: 0.5rem;
 }
