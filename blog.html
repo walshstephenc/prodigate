@@ -3,80 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Latest articles, guides, and insights on SaaS tools, productivity tips, and software buying decisions from Prodiate.">
-    <title>Blog - Prodiate | SaaS Insights & Guides</title>
     
-    <!-- Core SEO -->
-    <meta name="keywords" content="saas blog, saas guides, productivity tips, software reviews, saas news">
+    <!-- SEO Meta Tags -->
+    <title>Blog • Prodiate | Insights on SaaS, Online Courses, Digital Skills & Emerging Tech 2026</title>
+    <meta name="description" content="Prodiate Blog: Actionable insights, tutorials, and honest breakdowns of SaaS tools, online courses like Quantum Computing System, Digital Redemption, AlgePrime, and emerging technologies. Real strategies for growth in 2026.">
+    <meta name="keywords" content="Prodiate blog, SaaS reviews, online course reviews, quantum computing insights, digital skills blog, algebra learning tips, wellness technology, best courses 2026, productivity tools">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://walshstephenc.github.io/prodigate/blog.html">
-    
-    <!-- Open Graph -->
-    <meta property="og:title" content="Blog - Prodiate | SaaS Insights & Guides">
-    <meta property="og:description" content="Latest articles on SaaS tools and productivity.">
+    <meta name="author" content="Stephen, Prodiate">
+
+    <!-- Open Graph / Social Sharing Meta -->
+    <meta property="og:title" content="Blog • Prodiate | Insights on SaaS, Courses & Emerging Tech">
+    <meta property="og:description" content="Practical advice, in-depth tutorials, and honest insights to help you choose the right SaaS tools, online courses, and technologies that deliver real results.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://walshstephenc.github.io/prodigate/blog.html">
-    
-    <link rel="stylesheet" href="styles.css">
+    <meta property="og:url" content="https://yourdomain.com/blog.html">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/0a2540/ffffff?text=Prodiate+Blog">
+
+    <!-- Additional SEO -->
+    <meta name="theme-color" content="#00bfa5">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        :root {
+            --teal: #00bfa5;
+            --gold: #ffd700;
+        }
+        .tail-container {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        .hero-bg {
+            background: linear-gradient(135deg, #008b8b 0%, #0a2540 100%);
+        }
+        .article-card {
+            transition: all 0.3s ease;
+        }
+        .article-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(0 191 165 / 0.15), 
+                       0 8px 10px -6px rgb(0 191 165 / 0.1);
+        }
+        .gold-accent {
+            color: var(--gold);
+        }
+    </style>
 </head>
-<body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <span class="logo-text">Prodiate</span>
+<body class="tail-container bg-slate-950 text-slate-200">
+
+    <!-- Navbar -->
+    <nav class="bg-slate-900 border-b border-teal-500/30 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-3">
+                <img src="logo.png" alt="Prodiate Logo" class="h-10 w-auto">
+            </a>
+            <div class="flex items-center gap-8 text-sm font-medium">
+                <a href="index.html" class="hover:text-teal-400 transition">Home</a>
+                <a href="reviews.html" class="hover:text-teal-400 transition">Reviews</a>
+                <a href="blog.html" class="text-teal-400">Blog</a>
+                <a href="about.html" class="hover:text-teal-400 transition">About</a>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="reviews.html">SaaS Reviews</a></li>
-                    <li><a href="comparisons.html">Comparisons</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="best-tools.html">Best Tools</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </nav>
+            <a href="#newsletter" 
+               class="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2.5 rounded-full text-sm font-semibold transition">
+                Get Free Guides
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero-bg py-20">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <div class="inline-flex items-center gap-2 bg-slate-800/80 px-6 py-2 rounded-full mb-6">
+                <i class="fas fa-newspaper text-gold"></i>
+                <span class="text-sm font-medium">Insights • Strategies • Growth Hacks</span>
+            </div>
+            <h1 class="text-5xl md:text-6xl font-bold tracking-tight mb-6">
+                Prodiate Blog
+            </h1>
+            <p class="text-xl text-slate-300 max-w-2xl mx-auto">
+                Actionable advice, in-depth tutorials, and honest insights to help you choose the right SaaS tools and online courses — and actually get results.
+            </p>
         </div>
     </header>
 
-    <main>
-        <section class="hero" style="background: linear-gradient(135deg, #0A5C55 0%, #0F766E 100%); padding: 100px 0;">
-            <div class="container">
-                <h1>Prodiate <span class="accent">Blog</span></h1>
-                <p class="subtitle">Insights, guides, and deep dives into SaaS tools that help teams work smarter.</p>
-            </div>
-        </section>
-
-        <section class="featured" style="padding: 80px 0;">
-            <div class="container">
-                <h2>Latest Articles</h2>
-                <div class="cards">
-                    <div class="card">
-                        <h3>How to Choose the Right Project Management SaaS in 2026</h3>
-                        <p>Key factors to consider when evaluating tools like ClickUp, Notion, and Asana.</p>
-                        <a href="#" class="read-more">Read Article →</a>
-                    </div>
-                    <div class="card">
-                        <h3>Top 10 Marketing Automation Tools Compared</h3>
-                        <p>Which platform delivers the best ROI for small teams?</p>
-                        <a href="#" class="read-more">Read Article →</a>
-                    </div>
-                    <div class="card">
-                        <h3>The Rise of AI-Powered SaaS: What to Watch in 2026</h3>
-                        <p>Emerging trends and tools worth testing this year.</p>
-                        <a href="#" class="read-more">Read Article →</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-    <div class="container">
-        <div class="disclaimer">
-            <p><strong>Affiliate Disclaimer:</strong> Prodiate participates in affiliate programs. Some links may earn us a commission at no extra cost to you. We only recommend tools we believe provide real value.</p>
-            <p>&copy; 2026 Prodiate. All rights reserved. | <a href="about.html" style="color: inherit; text-decoration: underline;">About Us</a></p>
+    <!-- Categories -->
+    <div class="max-w-7xl mx-auto px-6 py-8 border-b border-slate-800">
+        <div class="flex flex-wrap gap-3">
+            <button onclick="filterCategory('all')" 
+                    class="category-btn active px-6 py-2.5 rounded-full bg-teal-500 text-white text-sm font-medium">All Posts</button>
+            <button onclick="filterCategory('saas')" 
+                    class="category-btn px-6 py-2.5 rounded-full hover:bg-slate-800 text-sm font-medium">SaaS Tools</button>
+            <button onclick="filterCategory('course')" 
+                    class="category-btn px-6 py-2.5 rounded-full hover:bg-slate-800 text-sm font-medium">Online Courses</button>
+            <button onclick="filterCategory('productivity')" 
+                    class="category-btn px-6 py-2.5 rounded-full hover:bg-slate-800 text-sm font-medium">Productivity</button>
+            <button onclick="filterCategory('marketing')" 
+                    class="category-btn px-6 py-2.5 rounded-full hover:bg-slate-800 text-sm font-medium">Marketing</button>
         </div>
     </div>
+
+    <!-- Blog Posts Grid -->
+    <section class="max-w-7xl mx-auto px-6 py-16">
+        <div id="blogContainer" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Blog Post Card 1 -->
+            <article class="blog-card bg-slate-900 rounded-3xl overflow-hidden border border-slate-800 article-card" data-category="saas">
+                <div class="h-64 bg-gradient-to-br from-teal-700 to-slate-800 relative">
+                    <img src="https://via.placeholder.com/600x400/0a2540/ffffff?text=Blog+Featured+Image" 
+                         alt="How I Replaced 7 Tools with One Notion Workspace in 2026" class="w-full h-full object-cover">
+                    <div class="absolute top-4 left-4 bg-black/70 text-xs px-3 py-1 rounded-full">
+                        April 8, 2026
+                    </div>
+                </div>
+                <div class="p-8">
+                    <div class="flex items-center gap-2 text-xs uppercase tracking-widest text-teal-400 mb-3">
+                        <span>SaaS Tools</span>
+                    </div>
+                    <h2 class="text-2xl font-semibold leading-tight mb-4 line-clamp-3">
+                        How I Replaced 7 Tools with One Notion Workspace in 2026
+                    </h2>
+                    <p class="text-slate-400 text-[15px] line-clamp-3 mb-6">
+                        I tested dozens of productivity apps this year. Here's the exact system I built in Notion that now runs my entire business — and the course that helped me do it faster.
+                    </p>
+                    <a href="blog-post-1.html" 
+                       class="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 font-medium">
+                        Read Full Article 
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Blog Post Card 2 -->
+            <article class="blog-card bg-slate-900 rounded-3xl overflow-hidden border border-slate-800 article-card" data-category="course">
+                <div class="h-64 bg-gradient-to-br from-amber-700 to-slate-800 relative">
+                    <img src="https://via.placeholder.com/600x400/0a2540/ffffff?text=Blog+Featured+Image" 
+                         alt="Is ClickFunnels 2.0 Still Worth It in 2026? My Honest Results" class="w-full h-full object-cover">
+                    <div class="absolute top-4 left-4 bg-black/70 text-xs px-3 py-1 rounded-full">
+                        April 5, 2026
+                    </div>
+                </div>
+                <div class="p-8">
+                    <div class="flex items-center gap-2 text-xs uppercase tracking-widest text-teal-400 mb-3">
+                        <span>Online Courses</span>
+                    </div>
+                    <h2 class="text-2xl font-semibold leading-tight mb-4 line-clamp-3">
+                        Is ClickFunnels 2.0 Still Worth It in 2026? My Honest Results
+                    </h2>
+                    <p class="text-slate-400 text-[15px] line-clamp-3 mb-6">
+                        I built 3 sales funnels with ClickFunnels 2.0 over the last 60 days. Here's what actually worked, what didn't, and whether the course is still a good investment.
+                    </p>
+                    <a href="blog-post-2.html" 
+                       class="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 font-medium">
+                        Read Full Article 
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Add more blog cards here following the same structure -->
+
+        </div>
+    </section>
+
+    <!-- Newsletter CTA -->
+    <div id="newsletter" class="bg-slate-900 py-16 border-t border-slate-800">
+        <div class="max-w-2xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-4">Never miss a deep-dive</h2>
+            <p class="text-slate-400 mb-8">Weekly insights on the best SaaS tools, courses, and growth strategies delivered straight to your inbox.</p>
+            <form class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+                <input type="email" placeholder="your@email.com" 
+                       class="flex-1 bg-slate-800 border border-slate-700 rounded-2xl px-6 py-4 focus:outline-none focus:border-teal-400">
+                <button type="submit"
+                        class="bg-gold hover:bg-yellow-300 text-slate-900 font-semibold px-10 py-4 rounded-2xl transition">
+                    Subscribe Free
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 text-center text-sm text-slate-500">
+            © 2026 Prodiate • 
+            <a href="disclosure.html" class="hover:text-teal-400">Affiliate Disclosure</a> • 
+            All rights reserved.
+        </div>
     </footer>
+
+    <script>
+        function filterCategory(category) {
+            const cards = document.querySelectorAll('.blog-card');
+            const buttons = document.querySelectorAll('.category-btn');
+            
+            buttons.forEach(btn => btn.classList.remove('active', 'bg-teal-500', 'text-white'));
+            
+            if (category === 'all') {
+                cards.forEach(card => card.style.display = 'block');
+                buttons[0].classList.add('active', 'bg-teal-500', 'text-white');
+            } else {
+                cards.forEach(card => {
+                    card.style.display = (card.getAttribute('data-category') === category) ? 'block' : 'none';
+                });
+            }
+        }
+
+        // Optional: Simple search (you can expand later)
+        // Add an input field similar to reviews.html if needed
+    </script>
 </body>
 </html>
