@@ -3,90 +3,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Learn about Prodiate - our mission to deliver unbiased SaaS recommendations and help teams make smarter software choices.">
-    <title>About Prodiate</title>
     
-    <!-- Core SEO -->
-    <meta name="keywords" content="about prodiate, saas review site, unbiased saas recommendations">
+    <!-- SEO Meta Tags -->
+    <title>About Prodiate | Stephen's Honest Reviews of Courses, Tools & Wellness Products</title>
+    <meta name="description" content="Meet Stephen, founder of Prodiate. Learn why I create honest, no-fluff reviews of SaaS tools, online courses like Quantum Computing System, Digital Redemption, AlgePrime, and wellness products like Tesla MedBed X. Transparency and real testing you can trust.">
+    <meta name="keywords" content="Prodiate about, Stephen Prodiate, honest affiliate reviews, Prodiate founder, best course reviews 2026, quantum computing review, digital redemption review, algeprime review, tesla medbed x review">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://walshstephenc.github.io/prodigate/about.html">
-    
-    <!-- Open Graph -->
-    <meta property="og:title" content="About Prodiate">
-    <meta property="og:description" content="Independent SaaS research and reviews.">
+    <meta name="author" content="Stephen, Prodiate">
+
+    <!-- Open Graph / Social Sharing Meta -->
+    <meta property="og:title" content="About Prodiate | Honest Reviews by Stephen">
+    <meta property="og:description" content="Discover the story behind Prodiate and why Stephen delivers transparent, personally tested reviews of high-value digital products and wellness tools.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://walshstephenc.github.io/prodigate/about.html">
+    <meta property="og:url" content="https://yourdomain.com/about.html">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/0a2540/ffffff?text=Prodiate+About">
 
-    <link rel="stylesheet" href="styles.css">
+    <!-- Additional SEO -->
+    <meta name="theme-color" content="#00bfa5">
 
-        <!-- JSON-LD Schema for SEO -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Prodiate",
-      "url": "https://walshstephenc.github.io/prodigate/",
-      "logo": "https://walshstephenc.github.io/prodigate/favicon.png",
-      "description": "Honest SaaS reviews, comparisons, and tools to help teams choose the best software.",
-      "sameAs": []
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Prodiate",
-      "url": "https://walshstephenc.github.io/prodigate/",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://walshstephenc.github.io/prodigate/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        :root {
+            --teal: #00bfa5;
+            --gold: #ffd700;
+        }
+        .tail-container {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        .hero-bg {
+            background: linear-gradient(135deg, #008b8b 0%, #0a2540 100%);
+        }
+        .section-title {
+            position: relative;
+        }
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(to right, var(--teal), var(--gold));
+            border-radius: 9999px;
+        }
+    </style>
 </head>
-<body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <span class="logo-text">Prodiate</span>
+<body class="tail-container bg-slate-950 text-slate-200">
+
+    <!-- Navbar -->
+    <nav class="bg-slate-900 border-b border-teal-500/30 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-3">
+                <img src="logo.png" alt="Prodiate Logo" class="h-10 w-auto">
+            </a>
+            <div class="flex items-center gap-8 text-sm font-medium">
+                <a href="index.html" class="hover:text-teal-400 transition">Home</a>
+                <a href="reviews.html" class="hover:text-teal-400 transition">Reviews</a>
+                <a href="blog.html" class="hover:text-teal-400 transition">Blog</a>
+                <a href="about.html" class="text-teal-400">About</a>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="reviews.html">SaaS Reviews</a></li>
-                    <li><a href="comparisons.html">Comparisons</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="best-tools.html">Best Tools</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </nav>
+            <a href="#newsletter" 
+               class="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2.5 rounded-full text-sm font-semibold transition">
+                Get Free Guides
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero-bg py-24">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <div class="inline-flex items-center gap-2 bg-slate-800/80 px-6 py-2 rounded-full mb-8">
+                <i class="fas fa-user-circle text-gold"></i>
+                <span class="text-sm font-medium">Meet the Founder of Prodiate</span>
+            </div>
+            <h1 class="text-5xl md:text-6xl font-bold tracking-tight mb-6">
+                Hi, I'm Stephen
+            </h1>
+            <p class="text-2xl text-slate-300 max-w-2xl mx-auto">
+                I help busy entrepreneurs and creators cut through the noise and choose the right SaaS tools and online courses that actually deliver results.
+            </p>
         </div>
     </header>
 
-    <main>
-        <section class="hero" style="background: linear-gradient(135deg, #0A5C55 0%, #0F766E 100%); padding: 100px 0;">
-            <div class="container">
-                <h1>About <span class="accent">Prodiate</span></h1>
-                <p class="subtitle">Independent SaaS research and reviews since 2026.</p>
+    <!-- Mission Section -->
+    <section class="max-w-5xl mx-auto px-6 py-20">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div>
+                <h2 class="section-title text-4xl font-bold mb-8">Our Mission</h2>
+                <div class="space-y-6 text-lg text-slate-300">
+                    <p>
+                        Prodiate was born from frustration. After wasting thousands of dollars on overhyped SaaS tools and online courses that promised the world but delivered little, 
+                        I decided to change the game.
+                    </p>
+                    <p>
+                        My goal is simple: deliver honest, in-depth, and actionable reviews so you can invest your time and money wisely and actually see real growth in your business or personal development.
+                    </p>
+                    <p>
+                        Every review and blog post on this site is based on real testing, real results, and zero fluff.
+                    </p>
+                </div>
             </div>
-        </section>
-
-        <section class="featured" style="padding: 80px 0;">
-            <div class="container">
-                <h2>Our Mission</h2>
-                <p style="max-width: 800px; margin: 0 auto 2rem; font-size: 1.2rem; text-align: center;">We cut through the marketing noise and deliver honest, tested insights on SaaS tools so you can choose with confidence and grow faster.</p>
+            <div class="bg-slate-900 p-10 rounded-3xl border border-slate-700">
+                <div class="text-center">
+                    <div class="w-32 h-32 mx-auto bg-gradient-to-br from-teal-500 to-teal-700 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-rocket text-6xl text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-2">Why Trust Prodiate?</h3>
+                    <ul class="space-y-4 text-left text-slate-300 mt-8">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-teal-400 mt-1"></i>
+                            <span>I personally test every tool and course I recommend</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-teal-400 mt-1"></i>
+                            <span>Transparent affiliate relationships with full disclosure</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-teal-400 mt-1"></i>
+                            <span>No sponsored posts — only products I believe in</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-teal-400 mt-1"></i>
+                            <span>Regularly updated content as tools evolve</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <footer>
-    <div class="container">
-        <div class="disclaimer">
-            <p><strong>Affiliate Disclaimer:</strong> Prodiate participates in affiliate programs. Some links may earn us a commission at no extra cost to you. We only recommend tools we believe provide real value.</p>
-            <p>&copy; 2026 Prodiate. All rights reserved. | <a href="about.html" style="color: inherit; text-decoration: underline;">About Us</a></p>
+    <!-- Story / Journey -->
+    <section class="bg-slate-900 py-20">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="section-title text-4xl font-bold text-center mb-12">My Journey</h2>
+            <div class="max-w-3xl mx-auto text-lg text-slate-300 space-y-8">
+                <p>
+                    Like many of you, I started my online journey chasing shiny objects. I bought course after course and subscribed to countless SaaS platforms hoping for a breakthrough.
+                </p>
+                <p>
+                    After years of trial and error — and more failed experiments than I care to admit — I finally cracked the code: the right tools + the right knowledge = exponential progress.
+                </p>
+                <p>
+                    That's why I created Prodiate. This site is my way of giving back — sharing the exact tools and courses that have helped me build a more productive, profitable, and balanced life.
+                </p>
+                <div class="bg-slate-800 border-l-4 border-teal-500 p-8 italic text-slate-200">
+                    “The best investment you can make is in tools and education that save you time and multiply your results.”
+                </div>
+                <p class="text-center font-medium text-teal-400">— Stephen, Founder of Prodiate</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values -->
+    <section class="max-w-5xl mx-auto px-6 py-20">
+        <h2 class="section-title text-4xl font-bold text-center mb-12">What We Stand For</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-slate-900 p-8 rounded-3xl border border-slate-800 text-center">
+                <div class="text-5xl mb-6">🔍</div>
+                <h3 class="text-2xl font-semibold mb-4">Transparency</h3>
+                <p class="text-slate-400">Full affiliate disclosure on every recommendation. You’ll always know when I earn a commission.</p>
+            </div>
+            <div class="bg-slate-900 p-8 rounded-3xl border border-slate-800 text-center">
+                <div class="text-5xl mb-6">🧪</div>
+                <h3 class="text-2xl font-semibold mb-4">Real Testing</h3>
+                <p class="text-slate-400">Every product is tested by me personally before I recommend it to you.</p>
+            </div>
+            <div class="bg-slate-900 p-8 rounded-3xl border border-slate-800 text-center">
+                <div class="text-5xl mb-6">🚀</div>
+                <h3 class="text-2xl font-semibold mb-4">Results First</h3>
+                <p class="text-slate-400">Focus on tools and courses that deliver measurable growth, not just hype.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-gradient-to-r from-teal-600 to-slate-900 py-20">
+        <div class="max-w-3xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-6">Ready to level up your toolkit?</h2>
+            <p class="text-xl text-slate-200 mb-10">
+                Start exploring my hand-picked reviews and blog posts. Let’s build something great together.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="reviews.html" 
+                   class="bg-teal-500 hover:bg-teal-600 text-white font-semibold px-10 py-4 rounded-2xl transition text-lg">
+                    Browse Reviews
+                </a>
+                <a href="blog.html" 
+                   class="bg-white/10 hover:bg-white/20 border border-white/30 font-semibold px-10 py-4 rounded-2xl transition text-lg">
+                    Read the Blog
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <div id="newsletter" class="py-16 bg-slate-900">
+        <div class="max-w-2xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-4">Join the Prodiate Community</h2>
+            <p class="text-slate-400 mb-8">Get my best tool recommendations and growth tips delivered monthly — completely free.</p>
+            <form class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+                <input type="email" placeholder="your@email.com" 
+                       class="flex-1 bg-slate-800 border border-slate-700 rounded-2xl px-6 py-4 focus:outline-none focus:border-teal-400">
+                <button type="submit"
+                        class="bg-gold hover:bg-yellow-300 text-slate-900 font-semibold px-10 py-4 rounded-2xl transition">
+                    Subscribe
+                </button>
+            </form>
         </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="bg-black py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 text-center text-sm text-slate-500">
+            © 2026 Prodiate • 
+            <a href="disclosure.html" class="hover:text-teal-400">Affiliate Disclosure</a> • 
+            All rights reserved.
+        </div>
     </footer>
+
 </body>
 </html>
